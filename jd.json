@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page
+        xmlns="http://cloudprint.cainiao.com/print"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://cloudprint.cainiao.com/print http://cloudprint-docs-resource.oss-cn-shanghai.aliyuncs.com/lpml_schema.xsd"
+        xmlns:editor="http://cloudprint.cainiao.com/schema/editor"
+        width="104" height="102"  >
+		<layout 
+            editor:_for_="1519702492263834"
+            
+            id="15197024922655" width="96" height="54" left="2" top="2"  style="zIndex:4;"><rect></rect>
+		</layout>
+		<layout 
+            editor:_for_="1519702765365669"
+            
+            id="1519702765365667" width="96" height="43" left="2" top="58"  style="zIndex:47;"><rect></rect>
+		</layout>
+		<line
+                    style="lineType:solid;lineColor:#000;"
+                    startX="2" 
+                    startY="22" 
+                    endX="98"
+                    endY="22"
+                    >
+                </line>
+                
+		<line
+                    style="lineType:solid;lineColor:#000;"
+                    startX="2" 
+                    startY="34" 
+                    endX="98"
+                    endY="34"
+                    >
+                </line>
+                
+		<line
+                    style="lineType:solid;lineColor:#000;"
+                    startX="2" 
+                    startY="40" 
+                    endX="98"
+                    endY="40"
+                    >
+                </line>
+                
+		<layout 
+            editor:_for_="1519709484154604"
+            
+            id="1519709484166192" width="85.62" height="10.74" left="6.96" top="4.440000000000001"  style="zIndex:6;"><barcode type="code128" style="opacity:1;hideText:true;rotation:0"  ratioMode="keepRatio"><![CDATA[<%=_data.waybillCode%> ]]></barcode>
+		</layout>
+		<layout 
+            editor:_for_="151970952086736"
+            
+            id="1519709520868687" width="51.86" height="4.79" left="24.11" top="15.77"  style="zIndex:8;">
+            <text  
+                style="fontFamily:SimHei;fontWeight:bold;fontSize:14;">
+                <![CDATA[<%=_data.waybillCode%> ]]>
+            </text>
+        
+		</layout>
+		<line
+                    style="lineType:solid;lineColor:#000;"
+                    startX="50" 
+                    startY="22" 
+                    endX="50"
+                    endY="40"
+                    editor:_deg_="90">
+                </line>
+                
+		<line
+                    style="lineType:solid;lineColor:#000;"
+                    startX="9" 
+                    startY="34" 
+                    endX="9"
+                    endY="56"
+                    editor:_deg_="90">
+                </line>
+                
+		<layout 
+            editor:_for_="1519710241845131"
+            
+            id="1519710241846301" width="5.03" height="14.68" left="2.87" top="40.67"  style="zIndex:9;">
+            <text  
+                style="fontFamily:SimHei;orientation:vertical;fontSize:9;align:center;valign:middle;">
+                <![CDATA[客户信息]]>
+            </text>
+        
+		</layout>
+		<line
+                    style="lineType:solid;lineColor:#000;"
+                    startX="60" 
+                    startY="34" 
+                    endX="60"
+                    endY="56"
+                    editor:_deg_="90">
+                </line>
+                
+		<layout 
+            editor:_for_="1519710748652590"
+            
+            id="1519710748653161" width="13.1" height="3.97" left="3.11" top="22.61"  style="zIndex:11;">
+            <text  
+                style="fontFamily:SimHei;fontWeight:bold;">
+                <![CDATA[始发地：]]>
+            </text>
+        
+		</layout>
+		<layout 
+            editor:_for_="1519710991491815"
+            
+            id="1519710991491433" width="13.1" height="3.18" left="51.6" top="23.08"  style="zIndex:12;">
+            <text  
+                style="fontFamily:SimHei;fontWeight:bold;">
+                <![CDATA[目的地：]]>
+            </text>
+        
+		</layout>
+	
+        
+        <layout 
+            editor:_for_="1519711012684801"
+            
+            id="1519711012684162" width="28.3" height="3.81" left="67.46" top="23.1"  style="zIndex:13;">
+            <text  
+                style="fontFamily:黑体;fontWeight:bold;">
+                <![CDATA[<%=_data.routingInfo.targetSort.targetSortCenterName%> ]]>
+            </text>
+        
+        </layout>
+        
+
+		<layout 
+            editor:_for_="1519711098964811"
+            
+            id="1519711098964973" width="29.76" height="5.79" left="8.15" top="27.33"  style="zIndex:14;">
+            <text  
+                style="fontFamily:SimHei;fontWeight:bold;fontSize:10;valign:middle;">
+                <![CDATA[<%=_data.routingInfo.sourcetSort.originalCrossCode%> - <%=_data.routingInfo.sourcetSort.originalTabletrolleyCode%> ]]>
+            </text>
+        
+		</layout>
+		<layout 
+            editor:_for_="1519711129013447"
+            
+            id="151971112901287" width="27.11" height="6.59" left="56.31" top="26.61"  style="zIndex:15;">
+            <text  
+                style="fontFamily:SimHei;fontWeight:bold;fontSize:10;valign:middle;">
+                <![CDATA[<%=_data.routingInfo.targetSort.destinationCrossCode%> - <%=_data.routingInfo.targetSort.destinationTabletrolleyCode%> ]]>
+            </text>
+        
+		</layout>
+		<layout 
+            editor:_for_="1519711406486731"
+            
+            id="1519711406487954" width="45.9" height="7.65" left="10.19" top="41.35"  style="zIndex:16;">
+            <text  
+                style="fontFamily:黑体;fontSize:9;valign:middle;">
+                <![CDATA[<%=_data.recipient.address.detail%> ]]>
+            </text>
+        
+		</layout>
+		<layout 
+            editor:_for_="151971141671741"
+            
+            id="1519711416717993" width="7.54" height="4.2" left="51.15" top="34.88"  style="zIndex:17;">
+            <text  
+                style="fontFamily:SimHei;fontWeight:bold;fontSize:16;align:center;valign:middle;">
+                <![CDATA[<%=_data.routingInfo.road%> ]]>
+            </text>
+        
+		</layout>
+		<layout 
+            editor:_for_="1519711451475518"
+            
+            id="1519711451476296" width="8.59" height="4.48" left="72.84" top="34.87"  style="zIndex:18;">
+            <text  
+                style="fontFamily:SimHei;fontWeight:bold;fontSize:5;align:center;valign:middle;">
+                <![CDATA[包裹数：]]>
+            </text>
+        
+		</layout>
+		<layout 
+            editor:_for_="1519711623306171"
+            
+            id="1519711623306924" width="8.2" height="5" left="10.32" top="50.23"  style="zIndex:19;">
+            <text  
+                style="fontFamily:SimHei;fontSize:9;valign:middle;">
+                <![CDATA[<%=_data.recipient.name%> ]]>
+            </text>
+        
+		</layout>
+		<layout 
+            editor:_for_="1519711725685411"
+            
+            id="1519711725685695" width="18.65" height="5" left="22.66" top="50.44"  style="zIndex:20;">
+            <text  
+                style="fontFamily:SimHei;fontSize:9;valign:middle;">
+                <![CDATA[<%=_data.recipient.phone%> ]]>
+            </text>
+        
+		</layout>
+	  <layout 
+        editor:_for_="1519712617473720"
+        
+        id="1519712617472138" width="30.43" height="3.81" left="18.19" top="22.78"  style="zIndex:21;">
+        <text  
+            style="fontFamily:黑体;fontWeight:bold;">
+            <![CDATA[<%=_data.routingInfo.targetSort.targetSortCenterName%> ]]>
+        </text>
+    
+    </layout>
+        
+		<layout 
+            editor:_for_="1519712707510219"
+            
+            id="1519712707511426" width="39.82" height="5" left="9.47" top="34.61"  style="zIndex:24;">
+            <text  
+                style="fontFamily:SimHei;fontSize:10;valign:middle;">
+                <![CDATA[<%=_data.routingInfo.siteName%> ]]>
+            </text>
+        
+		</layout>
+		<line
+                    style="lineType:solid;lineColor:#000;"
+                    startX="70" 
+                    startY="40" 
+                    endX="70"
+                    endY="56"
+                    editor:_deg_="90">
+                </line>
+                
+		<layout 
+            editor:_for_="1519712915724420"
+            
+            id="1519712915725577" width="8.86" height="6.84" left="61.07" top="40.7"  style="zIndex:26;">
+            <text  
+                style="fontFamily:SimHei;align:center;valign:middle;">
+                <![CDATA[客户签字]]>
+            </text>
+        
+		</layout>
+		<line
+                    style="lineType:solid;lineColor:#000;"
+                    startX="60" 
+                    startY="48" 
+                    endX="98"
+                    endY="48"
+                    >
+                </line>
+                
+		<layout 
+            editor:_for_="1519713334277144"
+            
+            id="1519713334277586" width="8.86" height="6.84" left="61.02" top="48.58"  style="zIndex:28;">
+            <text  
+                style="fontFamily:SimHei;align:center;valign:middle;">
+                <![CDATA[应收金额]]>
+            </text>
+        
+		</layout>
+		<line
+                    style="lineType:solid;lineColor:#000;"
+                    startX="2" 
+                    startY="65" 
+                    endX="98"
+                    endY="65"
+                    >
+                </line>
+                
+		<layout 
+            editor:_for_="1519718673002876"
+            
+            id="1519718673003472" width="13.09" height="5" left="25.409999999999997" top="59.06"  style="zIndex:30;">
+            <text  
+                style="fontFamily:SimHei;fontSize:11;">
+                <![CDATA[运单号]]>
+            </text>
+        
+		</layout>
+		<layout 
+            editor:_for_="1519718755563225"
+            
+            id="1519718755562758" width="44.83" height="6.05" left="42.03" top="58.47999999999999"  style="zIndex:33;">
+            <text  
+                style="fontFamily:SimHei;fontSize:11;valign:middle;">
+                <![CDATA[<%=_data.waybillCode%> ]]>
+            </text>
+        
+		</layout>
+		<line
+                    style="lineType:solid;lineColor:#000;"
+                    startX="60" 
+                    startY="65" 
+                    endX="60"
+                    endY="101"
+                    editor:_deg_="90">
+                </line>
+                
+		<line
+                    style="lineType:solid;lineColor:#000;"
+                    startX="2" 
+                    startY="80" 
+                    endX="98"
+                    endY="80"
+                    >
+                </line>
+                
+		<line
+                    style="lineType:solid;lineColor:#000;"
+                    startX="2" 
+                    startY="88" 
+                    endX="98"
+                    endY="88"
+                    >
+                </line>
+                
+		<line
+                    style="lineType:solid;lineColor:#000;"
+                    startX="26" 
+                    startY="80" 
+                    endX="26"
+                    endY="88"
+                    editor:_deg_="90">
+                </line>
+                
+		<line
+                    style="lineType:solid;lineColor:#000;"
+                    startX="80" 
+                    startY="80" 
+                    endX="80"
+                    endY="88"
+                    editor:_deg_="90">
+                </line>
+                
+		<line
+                    style="lineType:solid;lineColor:#000;"
+                    startX="2" 
+                    startY="95" 
+                    endX="98"
+                    endY="95"
+                    >
+                </line>
+                
+		<layout 
+            editor:_for_="1519719525186356"
+            
+            id="1519719525186802" width="14.44" height="5.06" left="3.24" top="65.73"  style="zIndex:36;">
+            <text  
+                style="fontFamily:SimHei;">
+                <![CDATA[客户信息]]>
+            </text>
+        
+		</layout>
+		<layout 
+            editor:_for_="1519719586001785"
+            
+            id="151971958600296" width="32.94" height="4.79" left="22.87" top="65.68"  style="zIndex:37;">
+            <text  
+                style="fontFamily:SimHei;">
+                <![CDATA[<%=_data.recipient.name%>   <%=_data.recipient.phone%>  ]]>
+            </text>
+        
+		</layout>
+		<layout 
+            editor:_for_="1519719705331392"
+            
+            id="1519719705346605" width="53.49" height="5.74" left="3.97" top="69.65"  style="zIndex:38;"><barcode type="code128" style="opacity:1;hideText:true;rotation:0"  ratioMode="keepRatio"><![CDATA[<%=_data.waybillCode%> ]]></barcode>
+		</layout>
+		<layout 
+            editor:_for_="1519719748092771"
+            
+            id="1519719748092842" width="35.32" height="3.94" left="13.65" top="75.73"  style="zIndex:39;">
+            <text  
+                style="fontFamily:SimHei;">
+                <![CDATA[<%=_data.waybillCode%> ]]>
+            </text>
+        
+		</layout>
+		<layout 
+            editor:_for_="1519719789079256"
+            
+            id="1519719789079964" width="8.6" height="4.47" left="62.39" top="66.74"  style="zIndex:40;">
+            <text  
+                style="fontFamily:SimHei;">
+                <![CDATA[备注]]>
+            </text>
+        
+		</layout>
+		<layout 
+            editor:_for_="1519720093338581"
+            
+            id="1519720093338328" width="56.48" height="4.61" left="2.6" top="95.69"  style="zIndex:41;">
+            <text  
+                style="fontFamily:SimHei;fontSize:5;">
+                <![CDATA[请您确认包裹完好,保留此包裹联时,代表您已经正常签收并确认外包 裹完好。http://www.jd-ex.com 客服电话：400-603-3600]]>
+            </text>
+        
+		</layout>
+		<layout 
+            editor:_for_="1519720270352762"
+            
+            id="1519720270352104" width="25" height="5" left="61.86" top="89.09"  style="zIndex:42;">
+            <text  
+                style="fontFamily:SimHei;fontSize:6;">
+                <![CDATA[商家编码：027K153388]]>
+            </text>
+        
+		</layout>
+		<layout 
+            editor:_for_="1519720408131613"
+            
+            id="1519720408132675" width="9.93" height="3.15" left="3.12" top="89.22"  style="zIndex:43;">
+            <text  
+                style="fontFamily:SimHei;fontSize:6;">
+                <![CDATA[寄方信息]]>
+            </text>
+        
+		</layout>
+		<layout 
+            editor:_for_="1519720451212240"
+            
+            id="1519720451213322" width="42.2" height="5.67" left="16.09" top="88.96"  style="zIndex:44;">
+            <text  
+                style="fontFamily:SimHei;fontSize:6;">
+                <![CDATA[<%=_data.sender.address.detail%> <%=_data.sender.name%>   <%=_data.sender.phone%>   <%=_data.sender.mobile%>]]>
+            </text>
+        
+		</layout>
+		<layout 
+            editor:_for_="1519720684580748"
+            
+            id="1519720684581742" width="13.63" height="3.41" left="61.12" top="95.37"  style="zIndex:45;">
+            <text  
+                style="fontFamily:SimHei;">
+                <![CDATA[始发城市]]>
+            </text>
+        
+		</layout>
+		<layout 
+            editor:_for_="1519720789641914"
+            
+            id="1519720789641244" width="14.29" height="3.94" left="76.68" top="95.85"  style="zIndex:46;">
+            <text  
+                style="fontFamily:SimHei;fontSize:5;valign:middle;">
+                <![CDATA[<%=_data.routingInfo.targetSort.targetSortCenterName%> ]]>
+            </text>
+        
+		</layout>
+		<layout 
+            editor:_for_="1519785707732803"
+            
+            id="1519785707732335" width="25" height="5" left="30.11" top="81.83"  style="zIndex:48;">
+            <text  
+                style="fontFamily:SimHei;fontWeight:bold;fontSize:12;align:center;valign:middle;">
+                <![CDATA[特惠送]]>
+            </text>
+        
+		</layout>
+		<layout 
+            editor:_for_="1519785780915536"
+            
+            id="1519785780915210" width="13.1" height="5" left="81.65" top="81.78"  style="zIndex:49;">
+            <text  
+                style="fontFamily:SimHei;fontWeight:bold;fontSize:12;align:center;valign:middle;">
+                <![CDATA[普通]]>
+            </text>
+        
+		</layout>
+		<layout 
+            editor:_for_="1519785807699120"
+            
+            id="1519785807700290" width="17.99" height="1.56" left="62.37" top="56.23"  style="zIndex:50;">
+            <text  
+                style="fontFamily:SimHei;fontSize:5;">
+                <![CDATA[打印时间：<%=_context.formatStartTime('yyyy/MM/dd')%>]]>
+            </text>
+        
+        </layout>
+        <layout 
+            editor:_for_="1519802463943183"
+            
+            id="1519802463987666" width="25" height="5" left="71.91" top="49.42"  style="zIndex:51;">
+            <text  
+                style="fontFamily:SimHei;fontWeight:bold;fontSize:10;align:center;valign:middle;">
+                <![CDATA[0]]>
+            </text>
+        
+        </layout>
+        <layout 
+        editor:_for_="1519802947240215"
+        
+        id="1519802947241330" width="6.88" height="4.34" left="61.19" top="82.36"  style="zIndex:52;">
+        <text  
+        style="fontFamily:SimHei;fontWeight:bold;fontSize:5;">
+            <![CDATA[拣货码]]>
+        </text>
+    
+    </layout>
+    <layout 
+        editor:_for_="1519803409637466"
+        
+        id="1519803409636388" width="8.07" height="2.75" left="71.19" top="82.36"  style="zIndex:53;">
+        <text  
+            style="fontFamily:SimHei;">
+            <![CDATA[<%=_data.pickSerialNumber%>]]>
+        </text>
+    
+    </layout>
+</page>
